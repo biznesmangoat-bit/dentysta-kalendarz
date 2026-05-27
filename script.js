@@ -69,7 +69,7 @@ async function pokazWizyty() {
 
     const wizyta = doc.data();
 
-    wizytyDiv.innerHTML += `
+    wizytyDiv.innerHTML = `
 
       <div class="wizyta">
 
