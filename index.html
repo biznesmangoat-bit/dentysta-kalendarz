@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dentysta</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Gabinet Dentystyczny</h1>
+    <p>Umów wizytę online</p>
+  </header>
+
+  <section class="formularz">
+
+    <input type="text" id="imie" placeholder="Imię">
+
+    <input type="date" id="data">
+
+    <input type="time" id="godzina">
+
+    <button onclick="dodajWizyte()">
+      Umów wizytę
+    </button>
+
+  </section>
+
+  <section>
+
+    <h2>Wizyty</h2>
+
+    <div id="wizyty"></div>
+
+  </section>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
